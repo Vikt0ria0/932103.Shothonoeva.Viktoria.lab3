@@ -1,0 +1,60 @@
+::selection {
+    background: green;
+    color: white;
+    }
+    body, html{
+    width:100%;
+    height:100%;
+    margin:0px;
+    font-family: Arial;
+    }
+    .title{
+    position: relative;
+    color: white;
+    }
+    p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    }
+    header{
+    background: green;
+    height: 6.5%;
+    font-size: 16pt;
+    }
+    #main{
+    min-height: 90%;
+    display: flex;
+    justify-content: center;
+    }
+    nav{
+    background: red;
+    color: white;
+    flex: 0 0 120px;
+    padding: 2% 1.2% 0% 2.6%;
+    }
+    nav a{
+    display: inline-block;
+    color: white;
+    margin-bottom: 8.4%;
+    }
+    a:hover{
+    background-color: green;
+    }
+    #content {
+    padding: 1.9% 1.2% 0% 2.1%;
+    text-align: justify;
+    max-width: 530px;
+    }
+    #exp{
+    color: red;
+    font-size: 30pt;
+    }
+    footer{
+    width: 100%;
+    background: black;
+    height: 5%;
+    }
+    
